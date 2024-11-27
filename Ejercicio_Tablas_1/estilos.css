@@ -31,6 +31,10 @@ tr:nth-child(odd) td {
     background-color: rgb(232, 232, 232);
 }
 
+tr:nth-child(3) td {
+    background-color: rgb(169, 22, 22);
+}
+
 caption {
     padding: 10px;
 }
@@ -44,3 +48,19 @@ tfoot {
     font-weight: bold;
     
 }
+tfoot tr:first-child td{
+    background-color: #009090;
+}
+
+tfoot td:first-child{
+    text-align: right;
+}
+
+tr:last-child td{
+    color: #000606;
+}
+
+tr:nth-child(2) td{
+    color: red;
+}
+
