@@ -1,0 +1,19 @@
+p{border: solid 2px #008080;
+    margin: 60px 30px 15px 1px;
+    padding: 20px;
+}
+hr{border-top: 5px solid #004040;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #008080;
+    border-bottom: 5px solid #009090;
+}
+
+.rojo_negrita{
+    color: red;
+    font-weight: bold;
+}
+
+#texto_especial{
+    color: #008080;
+}
