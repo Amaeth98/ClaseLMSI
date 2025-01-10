@@ -1,0 +1,22 @@
+*{
+    color:rgb(40, 80, 90)
+}
+
+h1{
+    color:#922b21;
+    font-style: italic;
+    text-align: center;
+}
+
+.borde_redondo{
+    border: solid 2px rgb(139, 134, 134);
+    border-radius: 15px;
+}
+
+#pie{
+    background-color: #509080;
+}
+
+article > img{
+    width: 150px;
+}
