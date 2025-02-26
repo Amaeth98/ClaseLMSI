@@ -1,0 +1,42 @@
+/*
+.container {
+    background: var(--color, grey);
+    min-height: 200px;
+    padding: 1rem 2rem;
+  }
+  
+  @media (width <= 550px) {
+    .container {
+      --color: indigo;
+    }
+  }
+  
+  @media (width >= 750px) {
+    .container {
+      --color: green;
+    }
+  }
+  -----------------------------------------------------------
+  */
+  .menu {
+    height: 100px;
+  }
+  
+  @media (max-width: 400px) {
+    .menu {
+      background: blue;
+    }
+  }
+  
+  @media (min-width: 400px) and (max-width: 800px) {
+    .menu {
+      background: red;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .menu {
+      background: green;
+    }
+  }
+  
